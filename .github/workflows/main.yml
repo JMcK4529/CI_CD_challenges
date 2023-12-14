@@ -19,6 +19,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: 3.11
+          python-full-version: 3.11.0
 
       # This step installs pip, pipenv, and our dependencies
       - name: Install dependencies
